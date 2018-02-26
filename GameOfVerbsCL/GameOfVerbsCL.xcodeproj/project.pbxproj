@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A43AD25820420968006BD5FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43AD25720420968006BD5FB /* main.swift */; };
+		A4ADCEA420449C8400D00583 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADCEA320449C8400D00583 /* main.swift */; };
+		A4ADCEAB20449D3600D00583 /* Verbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADCEAA20449D3600D00583 /* Verbs.swift */; };
+		A4ADCEAD20449E0400D00583 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADCEAC20449E0400D00583 /* Enum.swift */; };
+		A4ADCEAF20449E6700D00583 /* Exersice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADCEAE20449E6700D00583 /* Exersice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A43AD25220420968006BD5FB /* CopyFiles */ = {
+		A4ADCE9E20449C8400D00583 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A43AD25420420968006BD5FB /* GameOfVerbsCL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameOfVerbsCL; sourceTree = BUILT_PRODUCTS_DIR; };
-		A43AD25720420968006BD5FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A4ADCEA020449C8400D00583 /* GameOfVerbsCL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameOfVerbsCL; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4ADCEA320449C8400D00583 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A4ADCEAA20449D3600D00583 /* Verbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verbs.swift; sourceTree = "<group>"; };
+		A4ADCEAC20449E0400D00583 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		A4ADCEAE20449E6700D00583 /* Exersice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exersice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A43AD25120420968006BD5FB /* Frameworks */ = {
+		A4ADCE9D20449C8400D00583 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +44,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A43AD24B20420968006BD5FB = {
+		A4ADCE9720449C8400D00583 = {
 			isa = PBXGroup;
 			children = (
-				A43AD25620420968006BD5FB /* GameOfVerbsCL */,
-				A43AD25520420968006BD5FB /* Products */,
+				A4ADCEA220449C8400D00583 /* GameOfVerbsCL */,
+				A4ADCEA120449C8400D00583 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A43AD25520420968006BD5FB /* Products */ = {
+		A4ADCEA120449C8400D00583 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A43AD25420420968006BD5FB /* GameOfVerbsCL */,
+				A4ADCEA020449C8400D00583 /* GameOfVerbsCL */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A43AD25620420968006BD5FB /* GameOfVerbsCL */ = {
+		A4ADCEA220449C8400D00583 /* GameOfVerbsCL */ = {
 			isa = PBXGroup;
 			children = (
-				A43AD25720420968006BD5FB /* main.swift */,
+				A4ADCEA320449C8400D00583 /* main.swift */,
+				A4ADCEAA20449D3600D00583 /* Verbs.swift */,
+				A4ADCEAC20449E0400D00583 /* Enum.swift */,
+				A4ADCEAE20449E6700D00583 /* Exersice.swift */,
 			);
 			path = GameOfVerbsCL;
 			sourceTree = "<group>";
@@ -65,13 +74,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A43AD25320420968006BD5FB /* GameOfVerbsCL */ = {
+		A4ADCE9F20449C8400D00583 /* GameOfVerbsCL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A43AD25B20420968006BD5FB /* Build configuration list for PBXNativeTarget "GameOfVerbsCL" */;
+			buildConfigurationList = A4ADCEA720449C8400D00583 /* Build configuration list for PBXNativeTarget "GameOfVerbsCL" */;
 			buildPhases = (
-				A43AD25020420968006BD5FB /* Sources */,
-				A43AD25120420968006BD5FB /* Frameworks */,
-				A43AD25220420968006BD5FB /* CopyFiles */,
+				A4ADCE9C20449C8400D00583 /* Sources */,
+				A4ADCE9D20449C8400D00583 /* Frameworks */,
+				A4ADCE9E20449C8400D00583 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,55 +88,58 @@
 			);
 			name = GameOfVerbsCL;
 			productName = GameOfVerbsCL;
-			productReference = A43AD25420420968006BD5FB /* GameOfVerbsCL */;
+			productReference = A4ADCEA020449C8400D00583 /* GameOfVerbsCL */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A43AD24C20420968006BD5FB /* Project object */ = {
+		A4ADCE9820449C8400D00583 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Nikolay Raychev";
 				TargetAttributes = {
-					A43AD25320420968006BD5FB = {
+					A4ADCE9F20449C8400D00583 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A43AD24F20420968006BD5FB /* Build configuration list for PBXProject "GameOfVerbsCL" */;
+			buildConfigurationList = A4ADCE9B20449C8400D00583 /* Build configuration list for PBXProject "GameOfVerbsCL" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A43AD24B20420968006BD5FB;
-			productRefGroup = A43AD25520420968006BD5FB /* Products */;
+			mainGroup = A4ADCE9720449C8400D00583;
+			productRefGroup = A4ADCEA120449C8400D00583 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A43AD25320420968006BD5FB /* GameOfVerbsCL */,
+				A4ADCE9F20449C8400D00583 /* GameOfVerbsCL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A43AD25020420968006BD5FB /* Sources */ = {
+		A4ADCE9C20449C8400D00583 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43AD25820420968006BD5FB /* main.swift in Sources */,
+				A4ADCEAB20449D3600D00583 /* Verbs.swift in Sources */,
+				A4ADCEAF20449E6700D00583 /* Exersice.swift in Sources */,
+				A4ADCEAD20449E0400D00583 /* Enum.swift in Sources */,
+				A4ADCEA420449C8400D00583 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A43AD25920420968006BD5FB /* Debug */ = {
+		A4ADCEA520449C8400D00583 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +196,7 @@
 			};
 			name = Debug;
 		};
-		A43AD25A20420968006BD5FB /* Release */ = {
+		A4ADCEA620449C8400D00583 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +245,7 @@
 			};
 			name = Release;
 		};
-		A43AD25C20420968006BD5FB /* Debug */ = {
+		A4ADCEA820449C8400D00583 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		A43AD25D20420968006BD5FB /* Release */ = {
+		A4ADCEA920449C8400D00583 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,25 +268,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A43AD24F20420968006BD5FB /* Build configuration list for PBXProject "GameOfVerbsCL" */ = {
+		A4ADCE9B20449C8400D00583 /* Build configuration list for PBXProject "GameOfVerbsCL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A43AD25920420968006BD5FB /* Debug */,
-				A43AD25A20420968006BD5FB /* Release */,
+				A4ADCEA520449C8400D00583 /* Debug */,
+				A4ADCEA620449C8400D00583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A43AD25B20420968006BD5FB /* Build configuration list for PBXNativeTarget "GameOfVerbsCL" */ = {
+		A4ADCEA720449C8400D00583 /* Build configuration list for PBXNativeTarget "GameOfVerbsCL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A43AD25C20420968006BD5FB /* Debug */,
-				A43AD25D20420968006BD5FB /* Release */,
+				A4ADCEA820449C8400D00583 /* Debug */,
+				A4ADCEA920449C8400D00583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A43AD24C20420968006BD5FB /* Project object */;
+	rootObject = A4ADCE9820449C8400D00583 /* Project object */;
 }
