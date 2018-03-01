@@ -8,8 +8,4 @@
 
 import Foundation
 
-let ex = Exersice()
-while(true){
-    ex.exersicing(exerciceVersion: .byGivenVerb1)
-}
-
+Menu.sharedInstance.run()

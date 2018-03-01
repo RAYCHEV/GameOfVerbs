@@ -28,3 +28,7 @@ enum ExersiceName {
     case byGivenVerb3
     //todo - case byGiven verb in other language
 }
+
+enum MenuOptions {
+    case opa
+}

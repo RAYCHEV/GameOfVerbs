@@ -11,6 +11,7 @@
 		A4ADCEAB20449D3600D00583 /* Verbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADCEAA20449D3600D00583 /* Verbs.swift */; };
 		A4ADCEAD20449E0400D00583 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADCEAC20449E0400D00583 /* Enum.swift */; };
 		A4ADCEAF20449E6700D00583 /* Exersice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADCEAE20449E6700D00583 /* Exersice.swift */; };
+		A4ADCEB12046EF3100D00583 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ADCEB02046EF3100D00583 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		A4ADCEAA20449D3600D00583 /* Verbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verbs.swift; sourceTree = "<group>"; };
 		A4ADCEAC20449E0400D00583 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		A4ADCEAE20449E6700D00583 /* Exersice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exersice.swift; sourceTree = "<group>"; };
+		A4ADCEB02046EF3100D00583 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				A4ADCEAA20449D3600D00583 /* Verbs.swift */,
 				A4ADCEAC20449E0400D00583 /* Enum.swift */,
 				A4ADCEAE20449E6700D00583 /* Exersice.swift */,
+				A4ADCEB02046EF3100D00583 /* Menu.swift */,
 			);
 			path = GameOfVerbsCL;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 				A4ADCEAF20449E6700D00583 /* Exersice.swift in Sources */,
 				A4ADCEAD20449E0400D00583 /* Enum.swift in Sources */,
 				A4ADCEA420449C8400D00583 /* main.swift in Sources */,
+				A4ADCEB12046EF3100D00583 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

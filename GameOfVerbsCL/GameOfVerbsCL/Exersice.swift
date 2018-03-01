@@ -14,6 +14,8 @@ class Exersice {
     
     private let verbs: Verbs
     private let minNumOfArrVerbsCount: Int
+    private let msgWellDone = "\t✔︎ Well done!! 😃"
+    private let msgWrong = "\t✗  Wrong answer or wrong question  🧐"
     
     init() {
         self.verbs = Verbs()
@@ -24,7 +26,7 @@ class Exersice {
         return String(str.filter { !" \t".contains($0) })
     }
     
-    func exersicing(exerciceVersion: ExersiceName){
+    func exersicing(exerciceVersion: ExersiceName) -> Bool{
         let randomIndex = Int(arc4random_uniform(UInt32(minNumOfArrVerbsCount)))
         //print(randomIndex)
         
@@ -35,24 +37,28 @@ class Exersice {
             
             print("Simple Past: ", terminator:"")
             if let simplePast = readLine(){
+                if simplePast == "q" {return false}
                 if trimAndClean(simplePast) == verbs.getVerbsTwo(index: randomIndex){
-                    print("Well done!!")
+                    print(msgWellDone)
                 }else{
-                    print("Wrong answer or wrong question")
+                    print(msgWrong)
                     
                 }
             }
             print("Past Participle: ", terminator:"")
             if let pastParticiple = readLine(){
+                if pastParticiple == "q" { return false}
                 if trimAndClean(pastParticiple) == verbs.getVerbsThree(index: randomIndex){
-                    print("Well done!!!")
+                    print(msgWellDone)
                 } else {
-                    print("Wrong answer or wrong question")
+                    print(msgWrong)
                 }
             }
             print("------------\n")
+            return true
         default:
             print("those options is not ready yet")
+            return false
         }
     }
 }
