@@ -4,6 +4,7 @@
 //
 //  Created by Nikolay Raychev on 1.12.18.
 //  Copyright © 2018 DemoFirebaseForGOWranking/GameOfVerbs/com.theXcoder. All rights reserved.
+//
 
 import Foundation
 
@@ -92,8 +93,8 @@ class RankingRequestManager {
                     let json = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : [String: String]]
 //                    print(json)
                     for line in json {
-                        //print(line.key)
-                        //print(line.value)
+                        print(line.key)
+                        print(line.value)
                         guard line.value["username"] != nil, line.value["points"] != nil else {
                             return
                         }

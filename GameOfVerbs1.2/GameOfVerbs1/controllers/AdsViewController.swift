@@ -5,6 +5,7 @@
 //  Created by Nikolay Raychev on 31.01.19.
 //  Copyright © 2019 Nikolay Raychev. All rights reserved.
 //
+import GoogleMobileAds
 import UIKit
 
 class AdsViewController: UIViewController, GADRewardBasedVideoAdDelegate, UIAlertViewDelegate {

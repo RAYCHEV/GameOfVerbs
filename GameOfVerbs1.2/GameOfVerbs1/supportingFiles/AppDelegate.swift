@@ -8,6 +8,8 @@
 
 import UIKit
 import IQKeyboardManagerSwift
+import GoogleMobileAds
+
  
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enable = true
         GameDataEngine.loadVerbs()
         RankingRequestManager.getData()
+        //GADMobileAds.configure(withApplicationID: "ca-app-pub-3940256099942544~1458002511")
+        //my google id 
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-6795556779089095~3536479006")
+
         return true
     }
 
