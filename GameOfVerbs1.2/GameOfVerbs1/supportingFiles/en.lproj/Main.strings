@@ -1,0 +1,90 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "3RR-oY-uge"; */
+"3RR-oY-uge.text" = "0";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "4kV-u6-4FT"; */
+"4kV-u6-4FT.placeholder" = "email";
+
+/* Class = "UISegmentedControl"; 5nD-DZ-99H.segmentTitles[0] = "Beginner"; ObjectID = "5nD-DZ-99H"; */
+"5nD-DZ-99H.segmentTitles[0]" = "Beginner";
+
+/* Class = "UISegmentedControl"; 5nD-DZ-99H.segmentTitles[1] = "intermidiate"; ObjectID = "5nD-DZ-99H"; */
+"5nD-DZ-99H.segmentTitles[1]" = "intermidiate";
+
+/* Class = "UISegmentedControl"; 5nD-DZ-99H.segmentTitles[2] = "Advanced"; ObjectID = "5nD-DZ-99H"; */
+"5nD-DZ-99H.segmentTitles[2]" = "Advanced";
+
+/* Class = "UITextField"; placeholder = "Infinitive"; ObjectID = "8T2-ej-Z7J"; */
+"8T2-ej-Z7J.placeholder" = "Infinitive";
+
+/* Class = "UIButton"; normalTitle = "Start new game"; ObjectID = "E4J-eC-wQi"; */
+"E4J-eC-wQi.normalTitle" = "Start new game";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "ICD-jN-ccH"; */
+"ICD-jN-ccH.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "Load a rewared video ad"; ObjectID = "Ipb-Xx-7Ab"; */
+"Ipb-Xx-7Ab.normalTitle" = "Load a rewared video ad";
+
+/* Class = "UITabBarItem"; title = "Rankings"; ObjectID = "Lgi-dR-S55"; */
+"Lgi-dR-S55.title" = "Rankings";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "MNG-SU-re2"; */
+"MNG-SU-re2.placeholder" = "username";
+
+/* Class = "UITextField"; placeholder = "Past Participle"; ObjectID = "NeW-yR-TP6"; */
+"NeW-yR-TP6.placeholder" = "Past Participle";
+
+/* Class = "UILabel"; text = "32"; ObjectID = "OWx-qY-D0D"; */
+"OWx-qY-D0D.text" = "32";
+
+/* Class = "UILabel"; text = "Irregular verbs game level"; ObjectID = "OdZ-mU-BUa"; */
+"OdZ-mU-BUa.text" = "Irregular verbs game level";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "P5d-iw-ewx"; */
+"P5d-iw-ewx.title" = "Settings";
+
+/* Class = "UINavigationItem"; title = "Game Of Verbs"; ObjectID = "TYt-Cj-Ta7"; */
+"TYt-Cj-Ta7.title" = "Game Of Verbs";
+
+/* Class = "UILabel"; text = "od"; ObjectID = "V2l-38-R5s"; */
+"V2l-38-R5s.text" = "od";
+
+/* Class = "UIBarButtonItem"; title = "Order by Score"; ObjectID = "XZz-1n-mBx"; */
+"XZz-1n-mBx.title" = "Order by Score";
+
+/* Class = "UITextField"; placeholder = "Simple Past"; ObjectID = "bNd-rP-kJ8"; */
+"bNd-rP-kJ8.placeholder" = "Simple Past";
+
+/* Class = "UIButton"; normalTitle = "Start new session"; ObjectID = "bQu-Yp-cMI"; */
+"bQu-Yp-cMI.normalTitle" = "Start new session";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "cXr-4L-L03"; */
+"cXr-4L-L03.title" = "About";
+
+/* Class = "UITabBarItem"; title = "IrrVerbs"; ObjectID = "ePS-Vc-RVH"; */
+"ePS-Vc-RVH.title" = "IrrVerbs";
+
+/* Class = "UILabel"; text = "unknown user"; ObjectID = "k5b-IN-ndv"; */
+"k5b-IN-ndv.text" = "unknown user";
+
+/* Class = "UILabel"; text = "Reward Level"; ObjectID = "lL9-Z6-O13"; */
+"lL9-Z6-O13.text" = "Reward Level";
+
+/* Class = "UILabel"; text = "onde"; ObjectID = "mye-eR-r3Y"; */
+"mye-eR-r3Y.text" = "onde";
+
+/* Class = "UILabel"; text = "Kolio Mamata"; ObjectID = "oOK-GS-U4T"; */
+"oOK-GS-U4T.text" = "Kolio Mamata";
+
+/* Class = "UILabel"; text = "6"; ObjectID = "qYg-9O-eak"; */
+"qYg-9O-eak.text" = "6";
+
+/* Class = "UITabBarItem"; title = "Support"; ObjectID = "ryn-q7-Xs2"; */
+"ryn-q7-Xs2.title" = "Support";
+
+/* Class = "UILabel"; text = "idd"; ObjectID = "vdS-rP-duc"; */
+"vdS-rP-duc.text" = "idd";
+
+/* Class = "UIButton"; normalTitle = "Next →"; ObjectID = "wY9-aD-z5D"; */
+"wY9-aD-z5D.normalTitle" = "Next →";
